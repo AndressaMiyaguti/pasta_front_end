@@ -28,7 +28,7 @@ export default function Create() {
     });
     const result = await request.json();
     const id = result._id;
-    history.push(`/view/${id}`, result);
+    history.push(`/tarefas/${id}`, result);
   };
 
   return (
@@ -65,13 +65,14 @@ export default function Create() {
             ></input>
 
             <label htmlFor="descricao">Descrição da Tarefa:</label>
-            <textarea
+            <input
+            className="textarea"
               name="descricao"
               id="descricao"
               type="text"
               onChange={(e) => setDescricao(e.target.value)}
               required
-            ></textarea>
+            ></input>
 
             <label htmlFor="prioridade">Grau de Prioridade da Tarefa: </label>
             <select

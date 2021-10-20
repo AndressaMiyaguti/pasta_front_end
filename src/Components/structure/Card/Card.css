@@ -19,6 +19,7 @@
   justify-content: space-between;
   height: 23rem;
   border-radius: 22px;
+  filter: brightness(1.1) contrast(1.2) saturate(1);
   background: -webkit-linear-gradient(
     to right,
     #265c82e8,
@@ -57,6 +58,7 @@
 }
 .card_topo,
 .card_info {
+  
   background: #fffbd5;
   background: -webkit-linear-gradient(
     to right,
@@ -80,6 +82,4 @@
   );
 }
 
-button:hover {
-  color: rgba(255, 255, 255, 0.411);
-}
+

@@ -1,5 +1,5 @@
 const Api = {
-  apiUrl: "http://localhost:3001/tarefas",
+  apiUrl: "https://backend-projeto.herokuapp.com/tarefas",
 
   getAll: (body) => {
     // Retorna todos os itens da lista

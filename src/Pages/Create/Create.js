@@ -28,7 +28,9 @@ export default function Create() {
     });
     const result = await request.json();
     const id = result._id;
-    history.push(`/tarefas/${id}`, result);
+    console.log(id);
+    console.log(result)
+    history.push(`/view/${id}`, result);
   };
 
   return (
@@ -120,7 +122,7 @@ export default function Create() {
                 ></input>
               </div>
             </div>
-            <Link to="/">
+            <Link to="/getOne/">
               <button className="add">Adicionar Tarefa</button>
             </Link>
           </form>

@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 const ThemeButton = styled.i`
   padding: 0.6rem;

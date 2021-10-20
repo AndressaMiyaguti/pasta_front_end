@@ -1,10 +1,9 @@
-import React from 'react'
-import './Footer.css';
+import React from "react";
+import "./Footer.css";
 
 export default function Footer() {
   return (
-   
-      <footer>
+    <footer>
       <div className="footer">
         <p className="footer_texto"> Projeto final módulo 3 de Full Stack.</p>
         <a
@@ -14,10 +13,7 @@ export default function Footer() {
         >
           <span>Escola Blue EdTch!</span>
         </a>
-      
       </div>
     </footer>
-    
-  )
+  );
 }
-

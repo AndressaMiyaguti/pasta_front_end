@@ -12,6 +12,7 @@
   border: solid 1px #031847;
   border-radius: 10px;
   width: 50%;
+  height:850px;
   top: 15rem;
   position: absolute;
 }
@@ -82,9 +83,9 @@ select {
   color: #000000;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 3px 10px;
 }
-
-button {
-  height: 1.5rem;
+.add {
+  width:12rem;
+  height: 3rem;
   border-radius: 4px;
   border: 1.5px solid #9e3203;
   color: #031847;
@@ -97,7 +98,7 @@ button {
   background-color: #edb870;
   margin-bottom: 1em;
 }
-button:hover {
+.add:hover {
   background-color: #e76a24;
   color: red;
 }

@@ -39,47 +39,46 @@ export default function GetOne(props) {
 
   return (
     <div className="container_one">
-    <div className="container_bloco">  
-      <div className="container_tarefa">
-        <div className="tarefa">
-          <div className="titulo">{tarefa.titulo}</div>
-          <div className="item">
-            <p className="titulo_desc">Status da Tarefa</p>
-            <p className="item_desc"> {tarefa.status}</p>
-          </div>
-          <div className="item">
-            <p className="titulo_desc"> Descrição da Tarefa</p>
-            <p className="item_desc">{data}</p>
-          </div>
+      <div className="container_bloco">
+        <div className="container_tarefa">
+          <div className="tarefa">
+            <div className="titulo">{tarefa.titulo}</div>
+            <div className="item">
+              <p className="titulo_desc">Status da Tarefa</p>
+              <p className="item_desc"> {tarefa.status}</p>
+            </div>
+            <div className="item">
+              <p className="titulo_desc"> Descrição da Tarefa</p>
+              <p className="item_desc">{data}</p>
+            </div>
 
-          <div className="item">
-            <p className="titulo_desc">Nível de Prioridade</p>
-            <p className="item_desc">{tarefa.prioridade}</p>
-          </div>
-          <div className="item">
-            <p className="titulo_desc">Prazo para concluir a Tarefa</p>
-            <p className="item_desc"> {tarefa.prazo}</p>
-          </div>
-          <div className="item border">
-            <p className="titulo_desc">Data de criação da Tarefa</p>
-            <p className="item_desc"> {tarefa.dataCriacao}</p>
-          </div>
+            <div className="item">
+              <p className="titulo_desc">Nível de Prioridade</p>
+              <p className="item_desc">{tarefa.prioridade}</p>
+            </div>
+            <div className="item">
+              <p className="titulo_desc">Prazo para concluir a Tarefa</p>
+              <p className="item_desc"> {tarefa.prazo}</p>
+            </div>
+            <div className="item border">
+              <p className="titulo_desc">Data de criação da Tarefa</p>
+              <p className="item_desc"> {tarefa.dataCriacao}</p>
+            </div>
 
-          <div className="item_btn">
-            <button className="btn" onClick={editHandler}>
-              Editar
-            </button>
-            <button className="btn" onClick={deleteHandler}>
-              Deletar
-            </button>
+            <div className="item_btn">
+              <button className="add " onClick={editHandler}>
+                Editar
+              </button>
+              <button className="add " onClick={deleteHandler}>
+                Deletar
+              </button>
+            </div>
           </div>
-          
+          <div className="img_one">
+            <img className="avatar" src={img} alt=" avatar" />
+          </div>
         </div>
-        <div className="img_one">
-        <img className="avatar"src={img} alt=" avatar" />
-      </div>
       </div>
     </div>
-    </div> 
   );
 }

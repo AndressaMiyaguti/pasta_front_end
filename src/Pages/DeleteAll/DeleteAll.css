@@ -1,46 +1,46 @@
-*{
+/* * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-.container_delete{
+.container_delete {
   display: flex;
   flex-direction: column;
   position: absolute;
   overflow: auto;
-  top:12rem;
-  width: 100%; 
-  align-items: center;   
+  top: 12rem;
+  width: 100%;
+  align-items: center;
   margin-top: 0.5rem;
-   
 }
-.delete{
-background:white;
-width:45%;
-height: 450px;
-border-radius:10px;
-text-align:justify;
-color:rgb(7, 3, 53);
-margin-top: 1rem;
+.delete {
+  background: white;
+  width: 45%;
+  height: 450px;
+  border-radius: 10px;
+  text-align: justify;
+  color: rgb(7, 3, 53);
+  margin-top: 1rem;
 }
-.container_titulo{
+.container_titulo {
   margin: 1em;
-  text-align:justify;
+  text-align: justify;
   justify-content: space-between;
-  font-size:0.8rem;
-  padding:1em;  
+  font-size: 0.8rem;
+  padding: 1em;
 }
-.button{
-width:90%;
-margin:2rem;
-height: 200px;
-display: flex;
-justify-content:space-between;
-align-items: center;
-padding:5rem;
+.button {
+  width: 90%;
+  margin: 2rem;
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5rem;
 }
-button{
-  width:200px;
-  height:50px;
-  border-radius:10px;
+button {
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
 }
+ */

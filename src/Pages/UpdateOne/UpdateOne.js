@@ -37,7 +37,8 @@ export default function Update(props) {
       const result = await response.json();
       alert(result.message);
       history.push("/");
-    } catch (error) {
+    }
+    catch (error) {
       console.log(error);
     }
   };
@@ -108,7 +109,7 @@ export default function Update(props) {
             value={tarefa.prazo}
             required
           ></input>
-          <button>Adicionar Tarefa</button>
+          <button className="add">Adicionar Tarefa</button>
         </form>
       </div>
     </div>

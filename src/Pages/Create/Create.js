@@ -120,7 +120,7 @@ export default function Create() {
               </div>
             </div>
             <Link to="/">
-              <button>Adicionar Tarefa</button>
+              <button className="add">Adicionar Tarefa</button>
             </Link>
           </form>
         </div>

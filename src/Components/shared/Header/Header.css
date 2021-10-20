@@ -1,0 +1,75 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    width: 100vw;
+    background-color: #031847;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 0 2rem;/* 2 rem nas laterais */
+    position: fixed;
+    overflow: hidden;
+    z-index: 80;
+    height: 5rem;   
+}
+
+.img{
+  position: fixed;
+  overflow: hidden;
+  top: 0; 
+  width:50%;
+ 
+ 
+}
+.logoHeader{
+    width: 13rem;
+    padding: 0.5rem 0;/* esquerda e direita 0 */
+    border-radius: 100px;
+    box-shadow: rgb(8, 71, 119) 0px 1px 5px 0px;
+    filter: brightness(0.9) contrast(1.5) saturate(1.7);
+    
+}
+.container_ul{
+  width: 100%;
+  display: flex;
+  justify-content: flex-end  
+}
+
+.header_Ul{
+    display: flex;
+    align-items: center;
+
+}
+
+.header_Li{
+  list-style: none;/* tirar bolinhas */
+  padding: 1.2rem 1rem;
+  font-size: 1.5em;
+  
+}
+
+.header_Li:hover{
+  background-color: #0e0436;
+  border-radius: 50px;
+
+}
+.header_Li_Rotas{
+  text-decoration: none;
+  color: white;
+}
+
+ @media (max-width:780px) { 
+.img{
+width: 0;
+}
+.header_Li{
+  font-size: 1em;
+  padding:0.5em;
+}
+
+}

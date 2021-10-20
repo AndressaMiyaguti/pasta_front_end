@@ -1,0 +1,49 @@
+.container_list{
+/*   width: 100%;
+  position: absolute;
+  overflow: auto;
+  top:15rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+    margin: 6rem 0;
+
+    flex-wrap: wrap;
+ 
+}
+.list_titulo{ 
+  color:rgb(19, 8, 75);
+  position: fixed;
+  width: 100%; 
+  z-index: 70;
+  top:7rem;
+  font-size:1.5em;
+  text-align:center;
+  
+}
+@media (max-width:770px) {
+  .titulo {
+    top:5rem;  
+    position: fixed;  
+    z-index: 100;   
+    overflow: auto;
+    margin: 0 auto;
+    font-size:1em;
+}
+.container_list{
+  top:7rem;
+}
+}
+.buscar{
+  width: 100%;
+  height:125px;
+ 
+
+  display:flex;
+  justify-content:flex-end;
+  align-items: flex-end;
+}

@@ -1,0 +1,38 @@
+.cont_del {
+  width: 100%;
+
+  height: 700px;
+  display: flex;
+  justify-content: center;
+}
+.blc_del {
+  width: 50%;
+  margin-top: 12rem;
+  height: 300px;
+  border: 1px solid #031847;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 2em;
+}
+@media (max-width: 767px) {
+  .blc_del {
+    width: 90%;
+  }
+}
+.blc_del_h1 {
+  padding: 1.5rem;
+  color: #636160;
+}
+.modal {
+  color: #e76a24;
+}
+#opcoes_btn {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+
+  margin-bottom: 2rem;
+}

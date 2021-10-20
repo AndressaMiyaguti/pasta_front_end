@@ -29,10 +29,32 @@
 .modal {
   color: #e76a24;
 }
-#opcoes_btn {
-  display: flex;
-  justify-content: space-between;
-  width: 80%;
+.buttonDel {
+  height: 3rem;
+  width:9rem;
+  border-radius: 5px;
+  border: 1.5px solid #9e3203;
+  color:  #031847;
+  font-weight: 600;
+  font-size: 1em;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 3px 10px;
+  cursor: pointer;
+  transition: 200ms;
+  margin-top: 2rem;
+  background-color: #edb870;
+}
+.buttonDel:hover {
+  background-color: #e76a24;
+  color: #ffffff;
+}
+.opcao{
+  width:90%;
+  display:flex;
+  justify-content: space-evenly;
+}
+.canc:hover{
+  background-color: #031847e8;
+  color:#e76a24;;
+  border: 1px solid #031847;
 
-  margin-bottom: 2rem;
 }

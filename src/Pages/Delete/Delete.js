@@ -51,9 +51,9 @@ export default function DeleteOne(props) {
           <span>{tarefa.titulo}</span>?
         </h2>
 
-        <div id="opcoes_btn">
-          <button onClick={Home}>Cancelar</button>
-          <button onClick={clickHandler}>Deletar</button>
+        <div className="opcao">
+          <button className="buttonDel canc" onClick={Home}>Cancelar</button>
+          <button className="buttonDel"onClick={clickHandler}>Deletar</button>
         </div>
       </div>
     </div>

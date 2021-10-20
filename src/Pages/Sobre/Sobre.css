@@ -47,7 +47,7 @@ h2 {
   height: 15rem;
   object-fit: cover;
   border-radius: 2rem;
-  filter: brightness(1.1) contrast(1.1) saturate(1);
+  
 }
 
 .a {

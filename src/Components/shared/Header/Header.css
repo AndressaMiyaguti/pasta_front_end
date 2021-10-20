@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+  
 }
 .header {
   display: flex;
@@ -23,6 +24,8 @@
   overflow: hidden;
   top: 0;
   width: 50%;
+  z-index: 70;
+  
 }
 .logoHeader {
   width: 13rem;
@@ -46,6 +49,7 @@
   list-style: none; /* tirar bolinhas */
   padding: 1.2rem 1rem;
   font-size: 1.5em;
+  z-index: 100;
 }
 
 .header_Li:hover {
@@ -55,11 +59,12 @@
 .header_Li_Rotas {
   text-decoration: none;
   color: white;
+  z-index: 100;
 }
 
 @media (max-width: 780px) {
   .img {
-    width: 0;
+    width: 1px;
     z-index: 0;
     position: relative;
   }
@@ -69,5 +74,7 @@
   }
   .logoHeader{
     z-index: 0;
+    width: 0;
+    position: relative;
   }
 }

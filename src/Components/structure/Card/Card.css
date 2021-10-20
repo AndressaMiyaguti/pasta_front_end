@@ -13,6 +13,7 @@
 
 .cont_card {
   border: solid 1px rgba(34, 33, 36, 0.198);
+  margin-bottom: 2em;
   width: 16rem;
   display: flex;
   flex-direction: column;
@@ -52,6 +53,7 @@
   background: #f7f8f8;
   background: -webkit-linear-gradient(to right, #acbb78f8, #f7f8f8);
   background: linear-gradient(to right, #acbb781c, #f7f8f82a);
+  
 }
 .desc {
   margin-top: 0.5em;

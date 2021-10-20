@@ -38,7 +38,7 @@ export default function List() {
         {tarefas.map(
           (
             tarefa,
-            index // iterar o array de vagas e para cada vaga chamar um componente card
+            index 
           ) => (
             <Card data={tarefa} key={tarefa._id} />
           )

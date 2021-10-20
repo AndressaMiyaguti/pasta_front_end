@@ -27,10 +27,8 @@ export default function Create() {
       console.error("Erro ao tentar adicionar o item ao banco: ", e);
     });
     const result = await request.json();
-    const id = result._id;
-    console.log(id);
     console.log(result)
-    history.push(`/view/${id}`, result);
+    history.push("/", result);
   };
 
   return (
@@ -122,9 +120,9 @@ export default function Create() {
                 ></input>
               </div>
             </div>
-            <Link to="/getOne/">
+           
               <button className="add">Adicionar Tarefa</button>
-            </Link>
+            
           </form>
         </div>
       </div>

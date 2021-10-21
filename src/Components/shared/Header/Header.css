@@ -17,14 +17,16 @@
   overflow: hidden;
   z-index: 80;
   height: 5rem;
+  top:0;
 }
 
 .img {
   position: fixed;
   overflow: hidden;
   top: 0;
-  width: 50%;
+  width: 15%;
   z-index: 70;
+  
   
 }
 .logoHeader {

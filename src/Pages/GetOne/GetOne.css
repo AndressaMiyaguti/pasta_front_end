@@ -8,22 +8,22 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  height: 100vh;
 }
 .container_bloco {
   width: 100%;
-  top: 10px;
 }
 .container_tarefa {
-  display: flex;
-  position: absolute;
   overflow: auto;
-  top: 4rem;
+  position: absolute;
+  top: 10rem;
+  display: flex;
+  /* position: absolute; */
+  overflow: auto;
   width: 100%;
   align-items: center;
-  margin-top: 0.5rem;
   justify-content: center;
-  overflow-y: scroll;
-  height: 900px;
+  bottom: 60px;
   z-index: 50;
 }
 .tarefa {
@@ -34,19 +34,21 @@
   align-items: center;
   border: 1px solid#031847;
   border-radius: 10px;
+  margin-top: 6rem;
 }
 @media (max-width: 910px) {
   .tarefa {
     width: 80%;
-  }
-  .container_tarefa {
-    position: fixed;
-    top: 4rem;
+    margin-top: 25rem;
   }
 }
 @media (max-width: 452px) {
   .tarefa {
     width: 100%;
+  }
+  .container_bloco {
+    margin-bottom: 70px;
+    margin-top: 25rem;
   }
 }
 .titulo {

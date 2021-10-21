@@ -109,7 +109,7 @@ export default function Update(props) {
             value={tarefa.prazo}
             required
           ></input>
-          <button className="add">Adicionar Tarefa</button>
+          <button className="add">Editar Tarefa</button>
         </form>
       </div>
     </div>

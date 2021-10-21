@@ -11,11 +11,11 @@ export default function Search(filter) {
         onChange={filter.action}
       />
 
-      <button className="btn">
+      {/* <button className="btn">
         <Link className="btn_link" to="/">
           Buscar
         </Link>
-      </button>
+      </button> */}
     </div>
   );
 }

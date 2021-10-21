@@ -21,9 +21,10 @@ export default function List() {
   };
   const filter = (e) => {
     const filtered = busca.filter((item) =>
-      item.prioridade.includes(e.target.value)
+      item.prioridade.includes(e.target.value.toLowerCase())
     );
     setTarefas(filtered);
+    console.log(filtered);
   };
 
   return (

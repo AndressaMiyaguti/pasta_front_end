@@ -53,14 +53,12 @@
   background: #f7f8f8;
   background: -webkit-linear-gradient(to right, #acbb78f8, #f7f8f8);
   background: linear-gradient(to right, #acbb781c, #f7f8f82a);
-  
 }
 .desc {
   margin-top: 0.5em;
 }
 .card_topo,
 .card_info {
-  
   background: #fffbd5;
   background: -webkit-linear-gradient(
     to right,
@@ -83,5 +81,3 @@
     #270222b2
   );
 }
-
-

@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Api from "../../Api/Api";
-import { Link, useHistory } from "react-router-dom";
+import { useHistory } from "react-router-dom";
 import "./Create.css";
 
 export default function Create() {
@@ -19,19 +19,19 @@ export default function Create() {
     status: status,
     prazo: prazo,
   };
-
-  const submitHandler = async (event) => {
+   const submitHandler = async (event) => {
     event.preventDefault();
 
     const request = await Api.create(tarefa).catch((e) => {
       console.error("Erro ao tentar adicionar o item ao banco: ", e);
     });
     const result = await request.json();
-    console.log(result)
+    console.log(result);
     history.push("/", result);
   };
 
   return (
+  
     <div className="bloco_create">
       <div className="create">
         <div className="container_form">
@@ -66,7 +66,7 @@ export default function Create() {
 
             <label htmlFor="descricao">Descrição da Tarefa:</label>
             <input
-            className="textarea"
+              className="textarea"
               name="descricao"
               id="descricao"
               type="text"
@@ -120,9 +120,8 @@ export default function Create() {
                 ></input>
               </div>
             </div>
-           
-              <button className="add">Adicionar Tarefa</button>
-            
+
+            <button className="add">Adicionar Tarefa</button>
           </form>
         </div>
       </div>
